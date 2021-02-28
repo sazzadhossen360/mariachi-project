@@ -1,0 +1,245 @@
+/*===============
+ COMMON CSS STYLE
+=============== */
+h1,h2,h3,h4,h5,h6,button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+button.common-btn {
+    padding: 10px 50px;
+    border-radius: 30px;
+    border: unset;
+}
+/*===============
+ COMMON CSS STYLE END
+=============== */
+.header{
+    background-color: #4a1831;
+}
+/* .navbar-toggler:focus {
+    outline: 0!important;
+    box-shadow: 0;
+}
+.navbar-toggler{
+    border: unset!important;
+} */
+li.nav-item .nav-link {
+    color: #ffd7ad!important;
+    padding: 15px 50px!important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+/* ====================
+start banner section style
+==================== */
+.banner{
+    background-image: url('./img/bg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+.banner-content{
+    color: #ffd7ad;
+}
+.banner-heading{
+    font-weight: 900;
+    font-size: 60px;
+}
+.banner-btn {
+    background: #ffd7ad;
+    color: #b9937d;
+  
+}
+
+/* ====================
+start miss section style
+==================== */
+section.miss {
+    padding: 80px;
+    background-color: #ffd7ad;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.miss-btn {
+    background: #4a1831;
+    color: #b9937d;
+    border: unset;
+}
+
+/* ====================
+start tomoto section style
+==================== */
+section.tomoto {
+    padding: 150px;
+    background-image: url(./img/bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ====================
+start about section style
+==================== */
+.about{
+    background-color: #ffd7ad;
+}
+.about-content{
+    color: #4a1831;
+}
+.about-heading{
+    font-weight: 900;
+    font-size: 60px;
+    color: #4a1831;
+}
+
+.about-content {
+    margin-top: 64px;
+}
+
+.discount{
+    background-image: url(./img/hand-food.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 400px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.discount-content {
+    position: absolute;
+    top: 10%;
+    left: -1%;
+}
+h1.heading-discount {
+    font-size: 80px;
+    color: #e63956;
+    margin: 0!important;
+}
+h2.heading2-discount {
+    font-size: 60px;
+    color: #55112e;
+    margin: 0!important;
+}
+h3.heading3-discount {
+    font-size: 80px;
+    color: #6cc5ac;
+    margin: 0!important;
+}
+
+/* ====================
+start offer section style
+==================== */
+.offer{
+    background-color: #4a1831;
+    padding: 100px;
+   
+}
+.banner-content.offer-content.mt-5 {
+    margin-top: 130px!important;
+}
+
+/* ====================
+start food-table section style
+==================== */
+.food-table{
+    background-image:url(./img/foodtable.jpg);
+    padding: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   position: relative;
+}
+.food-table::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black!important;
+    opacity: 0.5;
+    content: '';
+    z-index: 2;
+   
+}
+.food-pera{
+    font-size: 25px;
+}
+
+/* ====================
+start food-table section style
+==================== */
+.input-group {
+    width: 50%;
+    margin: auto;
+}
+input.form-control {
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: unset;
+}
+.input-group:focus{
+    outline: 0;
+}
+button#button-addon2 {
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    right: -53px;
+    background-color: #4a1831;
+    padding: 10px 20px;
+    border: unset;
+    z-index: 22;
+}
+
+/* ====================
+start footer section style
+==================== */
+.footer{
+    background-color: #4a1831;
+    color: #956f64
+}
+ul.icon,.footer-line{
+    margin: 0;
+    padding: 0;
+
+}
+ul.icon li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+}
+
+
+ul.icon li a {
+    padding: 20px;
+    background: white;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul.icon li a i{
+    color:  #4a1831;
+}
+
+ul.footer-line li {
+    list-style: none;
+}
+
+
+ul.footer-line li a {
+    text-decoration: none;
+    color: #956f64
+}

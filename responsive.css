@@ -1,0 +1,41 @@
+@media only screen and (max-width:768px){
+    section.tomoto {
+        padding: 88px!important;
+       
+    }
+    /* .col-md-5.about-column {
+        padding-top: 30px;
+    } */
+    .food-table {
+        padding: 36px;
+
+    }
+    .offer {
+        padding: 20px;
+    }
+    .navbar-nav {
+       
+        padding-left: 259px;
+      
+    }
+    .food-pera {
+        font-size: 22px;
+    }
+    .discount {
+        padding: 185px;
+    }
+    h1.heading-discount {
+        font-size: 50px;
+      
+    }
+    h2.heading2-discount {
+        font-size: 30px;
+    }
+    h3.heading3-discount {
+        font-size: 40px;
+    }
+    .banner-heading {
+        font-size: 40px;
+       
+    }
+}
