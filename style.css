@@ -36,7 +36,11 @@ li.nav-item .nav-link {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
-
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
 /* ====================
 start banner section style
 ==================== */
