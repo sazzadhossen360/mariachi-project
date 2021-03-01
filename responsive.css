@@ -50,7 +50,7 @@
        
     }
     .discount {
-        padding: 150px;
+        padding: 150px!important;
     }
     .discount-content {
         top: -10%;
