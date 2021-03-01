@@ -164,6 +164,10 @@ start food-table section style
     background-size: cover;
    position: relative;
 }
+/* .banner-content.text-center.text-white {
+    position: relative;
+    z-index: 7;
+}
 .food-table::after{
     position: absolute;
     top: 0;
@@ -177,7 +181,7 @@ start food-table section style
     content: '';
     z-index: 2;
    
-}
+} */
 .food-pera{
     font-size: 25px;
 }
