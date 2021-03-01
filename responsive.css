@@ -49,4 +49,11 @@
         width: 100%;
        
     }
+    .discount {
+        padding: 150px;
+    }
+    .discount-content {
+        top: -10%;
+        left: 10%;
+    }
 }
